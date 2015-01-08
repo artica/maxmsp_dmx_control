@@ -3,7 +3,7 @@
     <settings>
         <file folder_video_base="MacintoshHD:/Users/guibot/Documents/LAB/TOOLS/VIDEO/640x480/BW" />
         <file folder_video_overlay="MacintoshHD:/alpha_video_folders" />
-        <file preset_file="MacintoshHD:/Users/guibot/Documents/LAB/STOREFRONT/EINSTEIN_STOREFRONT/preset.json" />
+        <file preset_file="MacintoshHD:/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL/p1.json" />
 
         <!--<file folder_video_base="MacintoshHD:/Applications/Max 6.1/patches/media"/>
         <file folder_video_overlay="MacintoshHD:/Applications/Max 6.1/patches/media"/>
@@ -11,8 +11,34 @@
     </settings>
 
     <sub_1>
+        <file channel="16" value="255"/>
+        <file channel="18" value="255"/>
+        <file channel="33" value="255"/>
+        <file channel="34" value="255"/>
+        <file channel="36" value="255"/>
+        <file channel="37" value="255"/>
+        <file channel="38" value="255"/>
+        <file channel="39" value="255"/>
+        <file channel="42" value="255"/>
+        <file channel="43" value="255"/>
+        <file channel="44" value="255"/>
+        <file channel="49" value="255"/>
+        <file channel="50" value="255"/>
+        <file channel="51" value="255"/>
+        <file channel="52" value="255"/>
+        <file channel="53" value="255"/>
+        <file channel="65" value="255"/>
+        <file channel="66" value="255"/>
+        <file channel="77" value="255"/>
+        <file channel="78" value="255"/>
         <file channel="79" value="255"/>
+        <file channel="80" value="255"/>
+        <file channel="83" value="255"/>
+        <file channel="84" value="255"/>
         <file channel="85" value="255"/>
+        <file channel="86" value="255"/>
+        <file channel="90" value="255"/>
+        <file channel="246" value="255"/>
     </sub_1>
 
     <sub_2>

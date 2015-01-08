@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 149.0, 44.0, 1167.0, 806.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -51,7 +51,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1165.166626, 607.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 1244.5, 605.0, 0.0, 0.0 ],
 					"text" : "dmx_message_router"
 				}
 
@@ -79,7 +78,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1124.0, 564.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 1203.333374, 562.0, 0.0, 0.0 ],
 					"text" : "dmx_message_router"
 				}
 
@@ -107,7 +105,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1082.72229, 528.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 1162.055664, 526.0, 0.0, 0.0 ],
 					"text" : "dmx_message_router"
 				}
 
@@ -135,7 +132,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1040.25, 489.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 1119.583374, 487.0, 0.0, 0.0 ],
 					"text" : "dmx_message_router"
 				}
 
@@ -163,7 +159,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 993.416626, 444.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 1072.75, 442.0, 0.0, 0.0 ],
 					"text" : "dmx_message_router"
 				}
 
@@ -191,7 +186,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 952.25, 401.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 1031.583374, 399.0, 0.0, 0.0 ],
 					"text" : "dmx_message_router"
 				}
 
@@ -219,7 +213,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 910.972229, 365.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 990.305603, 363.0, 0.0, 0.0 ],
 					"text" : "dmx_message_router"
 				}
 
@@ -247,7 +240,6 @@
 					"numinlets" : 2,
 					"numoutlets" : 0,
 					"patching_rect" : [ 868.5, 326.0, 107.0, 18.0 ],
-					"presentation_rect" : [ 947.833374, 324.0, 0.0, 0.0 ],
 					"text" : "dmx_message_router"
 				}
 

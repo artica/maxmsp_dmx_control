@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 612.0, 44.0, 801.0, 781.0 ],
+		"rect" : [ 20.0, 277.0, 1440.0, 806.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -91,8 +91,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.0, 655.0, 158.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 382.0, 307.0, 158.0, 17.0 ],
 					"text" : "• @refresh - defaults to 40"
 				}
 
@@ -135,8 +133,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.0, 637.0, 158.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 382.0, 289.0, 158.0, 17.0 ],
 					"text" : "• @startcode - defaults to 0"
 				}
 
@@ -151,8 +147,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.0, 619.0, 158.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 382.0, 271.0, 158.0, 17.0 ],
 					"text" : "• @channels - defaults to 512"
 				}
 
@@ -167,8 +161,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 483.0, 601.0, 158.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 382.0, 253.0, 158.0, 17.0 ],
 					"text" : "• @baudrate - defaults to 57600"
 				}
 
@@ -184,8 +176,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 182.0, 405.0, 250.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 196.0, 230.0, 17.0 ],
-					"text" : "• get list of connected devices and build menue from it"
+					"presentation_rect" : [ 10.0, 7.0, 230.0, 17.0 ],
+					"text" : "• get list of connected devices and build menue from it",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -200,7 +193,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 404.0, 37.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 196.0, 37.0, 15.0 ],
+					"presentation_rect" : [ 240.0, 7.0, 37.0, 15.0 ],
 					"text" : "menu"
 				}
 
@@ -216,8 +209,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 379.0, 557.0, 314.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 173.0, 35.0, 275.0, 17.0 ],
-					"text" : "• choose a device from list to open it or 'None' to close open device"
+					"presentation_rect" : [ 421.0, 7.0, 275.0, 17.0 ],
+					"text" : "• choose a device from list to open it or 'None' to close open device",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -235,7 +229,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 235.0, 557.0, 127.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 35.0, 127.0, 17.0 ]
+					"presentation_rect" : [ 286.0, 7.0, 127.0, 17.0 ]
 				}
 
 			}
@@ -334,8 +328,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 584.0, 251.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 49.0, 62.0, 202.0, 17.0 ],
-					"text" : "• indicates whether a device is opened or not"
+					"presentation_rect" : [ 718.0, 7.0, 202.0, 17.0 ],
+					"text" : "• indicates whether a device is opened or not",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
 
 			}
@@ -349,7 +344,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 170.0, 584.0, 15.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 62.0, 15.0, 15.0 ]
+					"presentation_rect" : [ 698.0, 7.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -363,8 +358,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 184.0, 232.0, 217.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 156.0, 182.0, 17.0 ],
 					"text" : "• set all DMX channels temporarily to zero"
 				}
 
@@ -377,9 +370,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 125.0, 212.0, 15.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 156.0, 15.0, 15.0 ]
+					"patching_rect" : [ 125.0, 212.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -393,8 +384,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 231.0, 59.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 156.0, 59.0, 15.0 ],
 					"text" : "blackout $1"
 				}
 
@@ -410,8 +399,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 192.0, 291.0, 208.0, 37.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 176.0, 438.0, 17.0 ],
 					"text" : "• get the parameters of the DMX USB Pro Interface (i.e. refresh rate, break time and mark after brake time)"
 				}
 
@@ -426,8 +413,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 290.0, 56.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 176.0, 56.0, 15.0 ],
 					"text" : "getparams"
 				}
 
@@ -459,8 +444,6 @@
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 341.0, 672.0, 35.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 32.5, 263.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -475,8 +458,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 382.0, 673.0, 90.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 263.0, 90.0, 17.0 ],
 					"text" : "• DMX value"
 				}
 
@@ -505,8 +486,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 91.0, 28.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 93.0, 28.0, 15.0 ],
 					"text" : "send"
 				}
 
@@ -521,8 +500,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 193.0, 183.0, 213.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 135.0, 211.0, 17.0 ],
 					"text" : "• set number of DMX channels to send (1 - 512)"
 				}
 
@@ -537,8 +514,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 182.0, 62.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 135.0, 59.0, 15.0 ],
 					"text" : "channels 16"
 				}
 
@@ -3513,8 +3488,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 227.0, 477.0, 197.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 236.0, 119.0, 17.0 ],
 					"text" : "• open or close the device"
 				}
 
@@ -3529,8 +3502,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 191.0, 477.0, 32.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 236.0, 32.0, 15.0 ],
 					"text" : "close"
 				}
 
@@ -3574,8 +3545,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 200.0, 92.0, 152.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 93.0, 272.0, 17.0 ],
 					"text" : "• set whether 'dmxusb' should send (default) or receive DMX data"
 				}
 
@@ -3791,8 +3760,6 @@
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 283.0, 706.0, 35.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 32.5, 302.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -3810,8 +3777,6 @@
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 312.0, 689.0, 35.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 32.5, 283.0, 35.0, 17.0 ],
 					"triscale" : 0.9
 				}
 
@@ -3826,8 +3791,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 353.0, 690.0, 223.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 283.0, 223.0, 17.0 ],
 					"text" : "• DMX channel number aka 'slot' (1 - 512)"
 				}
 
@@ -3842,8 +3805,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 324.0, 707.0, 179.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 303.0, 179.0, 17.0 ],
 					"text" : "• DMX start code (0 = dimmer data)"
 				}
 
@@ -3903,8 +3864,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 185.0, 150.0, 213.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 114.0, 333.0, 17.0 ],
 					"text" : "• set refresh rate in frames per second (possible values are 1 - 44, default = 40)"
 				}
 
@@ -3919,8 +3878,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 154.0, 52.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 114.0, 52.0, 15.0 ],
 					"text" : "refresh 40"
 				}
 
@@ -3935,8 +3892,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 158.0, 446.0, 197.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 99.0, 216.0, 152.0, 17.0 ],
 					"text" : "• print some info to the Max window"
 				}
 
@@ -3951,8 +3906,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 257.0, 533.0, 251.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 181.0, 14.0, 251.0, 17.0 ],
 					"text" : "• Creation arguments: <device> [<channels> <refresh>]"
 				}
 
@@ -3967,8 +3920,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 125.0, 445.0, 29.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 216.0, 29.0, 15.0 ],
 					"text" : "print"
 				}
 
@@ -3984,8 +3935,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 105.0, 531.0, 149.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 29.0, 12.0, 149.0, 17.0 ],
 					"text" : "dmxusbpro @baudrate 56700"
 				}
 
@@ -4015,8 +3964,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 456.0, 584.0, 154.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 355.0, 236.0, 154.0, 17.0 ],
 					"text" : "Supported @attr arguments:"
 				}
 
@@ -4029,8 +3976,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 451.0, 578.0, 210.0, 97.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 350.0, 230.0, 210.0, 97.0 ],
 					"rounded" : 0
 				}
 

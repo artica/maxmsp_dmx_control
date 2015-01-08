@@ -8,7 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 3.0, 44.0, 1044.0, 806.0 ],
+		"rect" : [ 6.0, 277.0, 997.0, 448.0 ],
+		"bgcolor" : [ 0.064898, 0.064898, 0.064898, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -29,13 +30,93 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-1",
-					"maxclass" : "bpatcher",
-					"name" : "dmx_dmxusbpro.maxpat",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-46",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1067.0, 334.0, 60.0, 20.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-17",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1126.25, 585.143799, 53.0, 20.0 ],
+					"text" : "pcontrol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1180.25, 438.75, 184.0, 18.0 ],
+					"text" : "load dmx_channel_page.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"bgcolor" : [ 0.023529, 0.74902, 0.023529, 1.0 ],
+					"fontface" : 1,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-6",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1211.25, 405.0, 90.0, 16.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 397.0, 417.068604, 92.0, 16.0 ],
+					"text" : "CHANNEL PAGE",
+					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 11.0,
+					"frgb" : 0.0,
+					"id" : "obj-39",
+					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 0.0, 2.0 ],
-					"patching_rect" : [ 14.0, 523.5, 575.0, 338.0 ]
+					"patching_rect" : [ 148.5, 608.0, 139.0, 19.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 899.0, 420.068604, 78.84375, 19.0 ],
+					"text" : "http://artica.cc",
+					"textcolor" : [ 0.88587, 0.88587, 0.88587, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"id" : "obj-20",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 148.5, 568.0, 156.0, 40.0 ],
+					"pic" : "ARTICA_BW-smaller.jpg",
+					"presentation" : 1,
+					"presentation_rect" : [ 777.0, 409.5, 122.0, 28.137236 ]
 				}
 
 			}
@@ -46,7 +127,10 @@
 					"name" : "xml_parser_holder.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 14.0, 17.0, 154.0, 37.0 ]
+					"offset" : [ -5.0, -5.0 ],
+					"patching_rect" : [ 831.0, 394.5, 154.0, 37.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 492.0, 411.5, 154.0, 25.0 ]
 				}
 
 			}
@@ -57,35 +141,51 @@
 					"name" : "dmx_sub_master_page.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 40.5, 302.5, 947.0, 201.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-4",
-					"maxclass" : "bpatcher",
-					"name" : "dmx_channel_page.maxpat",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 14.0, 61.5, 1000.0, 232.0 ]
+					"patching_rect" : [ 3.0, 1.5, 982.0, 430.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 3.0, 1.5, 982.0, 436.137238 ],
+					"varname" : "dmx_sub_master_page"
 				}
 
 			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-1", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"source" : [ "obj-4", 0 ]
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-16", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dmx_channel_page.maxpat",
+				"name" : "dmx_sub_master_page.maxpat",
+				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dmx_sub_master.maxpat",
 				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -106,21 +206,21 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dmx_multiplier.maxpat",
+				"name" : "number_ramp_double.maxpat",
 				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dmx_sub_master_page.maxpat",
+				"name" : "number_ramp.maxpat",
 				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dmx_sub_master.maxpat",
+				"name" : "p1.json",
 				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
@@ -169,15 +269,11 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "dmx_dmxusbpro.maxpat",
+				"name" : "ARTICA_BW-smaller.jpg",
 				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
 				"patcherrelativepath" : ".",
-				"type" : "JSON",
+				"type" : "JPEG",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "dmxusbpro.mxo",
-				"type" : "iLaX"
 			}
  ]
 	}
