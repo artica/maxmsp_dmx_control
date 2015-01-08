@@ -8,10 +8,10 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 6.0, 277.0, 997.0, 448.0 ],
+		"rect" : [ 19.0, 44.0, 1012.0, 694.0 ],
 		"bgcolor" : [ 0.064898, 0.064898, 0.064898, 1.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -19,7 +19,7 @@
 		"gridsize" : [ 15.0, 15.0 ],
 		"gridsnaponopen" : 0,
 		"statusbarvisible" : 2,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
@@ -30,15 +30,14 @@
 		"tags" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-46",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1067.0, 334.0, 60.0, 20.0 ],
-					"text" : "loadbang"
+					"id" : "obj-2",
+					"maxclass" : "bpatcher",
+					"name" : "dmx_channel_page.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 214.0, 212.0, 128.0, 128.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.0, 9.0, 982.0, 229.0 ]
 				}
 
 			}
@@ -82,8 +81,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1211.25, 405.0, 90.0, 16.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 397.0, 417.068604, 92.0, 16.0 ],
 					"text" : "CHANNEL PAGE",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -100,7 +97,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 148.5, 608.0, 139.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 899.0, 420.068604, 78.84375, 19.0 ],
+					"presentation_rect" : [ 910.0, 660.568604, 78.84375, 19.0 ],
 					"text" : "http://artica.cc",
 					"textcolor" : [ 0.88587, 0.88587, 0.88587, 1.0 ]
 				}
@@ -116,7 +113,7 @@
 					"patching_rect" : [ 148.5, 568.0, 156.0, 40.0 ],
 					"pic" : "ARTICA_BW-smaller.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 777.0, 409.5, 122.0, 28.137236 ]
+					"presentation_rect" : [ 788.0, 650.0, 122.0, 28.137236 ]
 				}
 
 			}
@@ -130,7 +127,7 @@
 					"offset" : [ -5.0, -5.0 ],
 					"patching_rect" : [ 831.0, 394.5, 154.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 492.0, 411.5, 154.0, 25.0 ]
+					"presentation_rect" : [ 503.0, 652.0, 154.0, 25.0 ]
 				}
 
 			}
@@ -143,7 +140,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 3.0, 1.5, 982.0, 430.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.0, 1.5, 982.0, 436.137238 ],
+					"presentation_rect" : [ 14.0, 242.0, 982.0, 436.137238 ],
 					"varname" : "dmx_sub_master_page"
 				}
 
@@ -155,15 +152,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-16", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-16", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-46", 0 ]
 				}
 
 			}
@@ -220,13 +208,6 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "p1.json",
-				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "xml_parser_holder.maxpat",
 				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
 				"patcherrelativepath" : ".",
@@ -274,6 +255,31 @@
 				"patcherrelativepath" : ".",
 				"type" : "JPEG",
 				"implicit" : 1
+			}
+, 			{
+				"name" : "dmx_channel_page.maxpat",
+				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dmx_multiplier.maxpat",
+				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dmx_dmxusbpro.maxpat",
+				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dmxusbpro.mxo",
+				"type" : "iLaX"
 			}
  ]
 	}
