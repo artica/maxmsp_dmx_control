@@ -10,233 +10,47 @@
         <file preset_file="MacintoshHD:/Users/guibot/storefront/EINSTEIN_STOREFRONT/preset.json"/>-->
     </settings>
 
-
+<submasters>
     <sub_1>
-        <file channel="1" value="255"/>
-        <file channel="2" value="255"/>
-        <file channel="3" value="255"/>
-        <file channel="4" value="255"/>
-        <file channel="5" value="255"/>
-        <file channel="6" value="255"/>
-        <file channel="7" value="255"/>
-        <file channel="8" value="255"/>
-        <file channel="9" value="255"/>
-        <file channel="10" value="255"/>
-        <file channel="11" value="255"/>
-        <file channel="12" value="255"/>
-        <file channel="13" value="255"/>
-        <file channel="14" value="255"/>
-        <file channel="15" value="255"/>
         <file channel="16" value="255"/>
-        <file channel="17" value="255"/>
         <file channel="18" value="255"/>
-        <file channel="19" value="255"/>
-
-        <file channel="20" value="255"/>
-        <file channel="21" value="255"/>
-        <file channel="22" value="255"/>
-        <file channel="23" value="255"/>
-        <file channel="24" value="255"/>
-        <file channel="25" value="255"/>
-        <file channel="26" value="255"/>
-        <file channel="27" value="255"/>
-        <file channel="28" value="255"/>
-        <file channel="29" value="255"/>
-
-        <file channel="30" value="255"/>
-        <file channel="31" value="255"/>
-        <file channel="32" value="255"/>
-        <file channel="33" value="255"/>
-        <file channel="34" value="255"/>
-        <file channel="35" value="255"/>
-        <file channel="36" value="255"/>
-        <file channel="37" value="255"/>
-        <file channel="38" value="255"/>
-        <file channel="39" value="255"/>
-
-        <file channel="40" value="255"/>
-        <file channel="41" value="255"/>
-        <file channel="42" value="255"/>
-        <file channel="43" value="255"/>
-        <file channel="44" value="255"/>
-        <file channel="45" value="255"/>
-        <file channel="46" value="255"/>
-        <file channel="47" value="255"/>
-        <file channel="48" value="255"/>
-        <file channel="49" value="255"/>
-
-        <file channel="50" value="255"/>
-        <file channel="51" value="255"/>
-        <file channel="52" value="255"/>
-        <file channel="53" value="255"/>
-        <file channel="54" value="255"/>
-        <file channel="55" value="255"/>
-        <file channel="56" value="255"/>
-        <file channel="57" value="255"/>
-        <file channel="58" value="255"/>
-        <file channel="59" value="255"/>
-
-        <file channel="60" value="255"/>
-        <file channel="61" value="255"/>
-        <file channel="62" value="255"/>
-        <file channel="63" value="255"/>
-        <file channel="64" value="255"/>
+        
         <file channel="65" value="255"/>
         <file channel="66" value="255"/>
-        <file channel="67" value="255"/>
-        <file channel="68" value="255"/>
-        <file channel="69" value="255"/>
-
-        <file channel="70" value="255"/>
-        <file channel="71" value="255"/>
-        <file channel="72" value="255"/>
-        <file channel="73" value="255"/>
-        <file channel="74" value="255"/>
-        <file channel="75" value="255"/>
-        <file channel="76" value="255"/>
         <file channel="77" value="255"/>
         <file channel="78" value="255"/>
         <file channel="79" value="255"/>
-
         <file channel="80" value="255"/>
-        <file channel="81" value="255"/>
-        <file channel="82" value="255"/>
         <file channel="83" value="255"/>
         <file channel="84" value="255"/>
         <file channel="85" value="255"/>
         <file channel="86" value="255"/>
-        <file channel="87" value="255"/>
-        <file channel="88" value="255"/>
-        <file channel="89" value="255"/>
-
         <file channel="90" value="255"/>
-        <file channel="91" value="255"/>
-        <file channel="92" value="255"/>
-        <file channel="93" value="255"/>
-        <file channel="94" value="255"/>
-        <file channel="95" value="255"/>
-        <file channel="96" value="255"/>
-        <file channel="97" value="255"/>
-        <file channel="98" value="255"/>
-        <file channel="99" value="255"/>
-        
-        <file channel="100" value="255"/>
-        <file channel="101" value="255"/>
-        <file channel="102" value="255"/>
-        <file channel="103" value="255"/>
-        <file channel="104" value="255"/>
-        <file channel="105" value="255"/>
-        <file channel="106" value="255"/>
-        <file channel="107" value="255"/>
-        <file channel="108" value="255"/>
-        <file channel="109" value="255"/>
 
-        <file channel="110" value="255"/>
-        <file channel="111" value="255"/>
-        <file channel="112" value="255"/>
-        <file channel="113" value="255"/>
-        <file channel="114" value="255"/>
-        <file channel="115" value="255"/>
-        <file channel="116" value="255"/>
-        <file channel="117" value="255"/>
-        <file channel="118" value="255"/>
-        <file channel="119" value="255"/>
-
-        <file channel="120" value="255"/>
-        <file channel="121" value="255"/>
-        <file channel="122" value="255"/>
-        <file channel="123" value="255"/>
-        <file channel="124" value="255"/>
-        <file channel="125" value="255"/>
-        <file channel="126" value="255"/>
-        <file channel="127" value="255"/>
-        <file channel="128" value="255"/>
-        <file channel="129" value="255"/>
-
-        <file channel="130" value="255"/>
-        <file channel="131" value="255"/>
-        <file channel="132" value="255"/>
         <file channel="133" value="255"/>
         <file channel="134" value="255"/>
-        <file channel="135" value="255"/>
         <file channel="136" value="255"/>
         <file channel="137" value="255"/>
         <file channel="138" value="255"/>
         <file channel="139" value="255"/>
-
-        <file channel="140" value="255"/>
-        <file channel="141" value="255"/>
         <file channel="142" value="255"/>
         <file channel="143" value="255"/>
         <file channel="144" value="255"/>
-        <file channel="145" value="255"/>
-        <file channel="146" value="255"/>
-        <file channel="147" value="255"/>
-        <file channel="148" value="255"/>
         <file channel="149" value="255"/>
-
         <file channel="150" value="255"/>
         <file channel="151" value="255"/>
         <file channel="152" value="255"/>
         <file channel="153" value="255"/>
-        <file channel="154" value="255"/>
-        <file channel="155" value="255"/>
-        <file channel="156" value="255"/>
-        <file channel="157" value="255"/>
-        <file channel="158" value="255"/>
-        <file channel="159" value="255"/>
 
-        <file channel="160" value="255"/>
-        <file channel="161" value="255"/>
-        <file channel="162" value="255"/>
-        <file channel="163" value="255"/>
-        <file channel="164" value="255"/>
-        <file channel="165" value="255"/>
-        <file channel="166" value="255"/>
-        <file channel="167" value="255"/>
-        <file channel="168" value="255"/>
-        <file channel="169" value="255"/>
 
-        <file channel="170" value="255"/>
-        <file channel="171" value="255"/>
-        <file channel="172" value="255"/>
-        <file channel="173" value="255"/>
-        <file channel="174" value="255"/>
-        <file channel="175" value="255"/>
-        <file channel="176" value="255"/>
-        <file channel="177" value="255"/>
-        <file channel="178" value="255"/>
-        <file channel="179" value="255"/>
-
-        <file channel="180" value="255"/>
-        <file channel="181" value="255"/>
-        <file channel="182" value="255"/>
-        <file channel="183" value="255"/>
-        <file channel="184" value="255"/>
-        <file channel="185" value="255"/>
-        <file channel="186" value="255"/>
-        <file channel="187" value="255"/>
-        <file channel="188" value="255"/>
-        <file channel="189" value="255"/>
-
-        <file channel="190" value="255"/>
-        <file channel="191" value="255"/>
-        <file channel="192" value="255"/>
-        <file channel="193" value="255"/>
-        <file channel="194" value="255"/>
-        <file channel="195" value="255"/>
-        <file channel="196" value="255"/>
-        <file channel="197" value="255"/>
-        <file channel="198" value="255"/>
-        <file channel="199" value="255"/>
-
-        <file channel="200" value="255"/>
-       
+        <file channel="246" value="255"/>
     </sub_1>
 
     <sub_2>
-        <file channel="4" value="255"/>
-        <file channel="25" value="255"/>
+        <file channel="49" value="255"/>
+        <file channel="50" value="255"/>
+        <file channel="52" value="255"/>
+        <file channel="53" value="255"/>
     </sub_2>
 
     <sub_3>
@@ -485,6 +299,6 @@
         <file channel="15" value="255"/>
         <file channel="16" value="255"/>
     </sub_24>
-
+</submasters>
     
 </root> 

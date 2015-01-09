@@ -8,8 +8,8 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 151.0, 213.0, 1200.0, 588.0 ],
-		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 806.0 ],
+		"bgcolor" : [ 0.076733, 0.076733, 0.076733, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -843,7 +843,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 687.0, 1112.0, 87.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 199.0, 414.0, 87.0, 17.0 ],
+					"presentation_rect" : [ 212.75, 408.0, 87.0, 17.0 ],
 					"text" : "storagewindow"
 				}
 
@@ -874,7 +874,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 688.25, 1087.0, 76.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 115.75, 414.0, 76.0, 17.0 ],
+					"presentation_rect" : [ 129.5, 408.0, 76.0, 17.0 ],
 					"text" : "clientwindow"
 				}
 
@@ -934,7 +934,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 469.4776, 1192.0, 223.0, 18.0 ],
-					"text" : "read u373020729.json 0"
+					"text" : "read u690015129.json 0"
 				}
 
 			}
@@ -1111,7 +1111,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 570.9776, 818.0, 44.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 414.0, 44.0, 17.0 ],
+					"presentation_rect" : [ 26.25, 408.0, 44.0, 17.0 ],
 					"text" : "read 1",
 					"textcolor" : [ 0.982201, 0.999632, 1.0, 1.0 ]
 				}
@@ -1151,7 +1151,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 497.477539, 818.0, 46.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 61.5, 414.0, 45.0, 17.0 ],
+					"presentation_rect" : [ 75.25, 408.0, 45.0, 17.0 ],
 					"text" : "write 1",
 					"textcolor" : [ 0.982201, 0.999632, 1.0, 1.0 ]
 				}
@@ -1232,7 +1232,7 @@
 					}
 ,
 					"text" : "pattrstorage",
-					"varname" : "u373020729"
+					"varname" : "u690015129"
 				}
 
 			}
@@ -3398,6 +3398,42 @@
 					"source" : [ "obj-99", 0 ]
 				}
 
+			}
+ ],
+		"dependency_cache" : [ 			{
+				"name" : "dmx_sub_master.maxpat",
+				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "dmx_channel_display.maxpat",
+				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "thru.maxpat",
+				"bootpath" : "/Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"patcherrelativepath" : "../../../../../../Applications/Max 6.1/patches/m4l-patches/Pluggo for Live resources/patches",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "number_ramp_double.maxpat",
+				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "number_ramp.maxpat",
+				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
  ]
 	}

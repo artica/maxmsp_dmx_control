@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 19.0, 44.0, 1012.0, 694.0 ],
+		"rect" : [ 3.0, 44.0, 1007.0, 819.0 ],
 		"bgcolor" : [ 0.064898, 0.064898, 0.064898, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -35,9 +35,9 @@
 					"name" : "dmx_channel_page.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 214.0, 212.0, 128.0, 128.0 ],
+					"patching_rect" : [ 8.498964, 160.62471, 969.491455, 276.811127 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 9.0, 982.0, 229.0 ]
+					"presentation_rect" : [ 14.0, 9.0, 982.0, 348.431366 ]
 				}
 
 			}
@@ -50,7 +50,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1126.25, 585.143799, 53.0, 20.0 ],
+					"patching_rect" : [ 1191.797729, 466.449219, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -80,7 +80,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1211.25, 405.0, 90.0, 16.0 ],
+					"patching_rect" : [ 1191.797729, 408.543121, 90.0, 16.0 ],
 					"text" : "CHANNEL PAGE",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -95,9 +95,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.5, 608.0, 139.0, 19.0 ],
+					"patching_rect" : [ 1005.935486, 225.34285, 139.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 910.0, 660.568604, 78.84375, 19.0 ],
+					"presentation_rect" : [ 910.0, 775.568604, 78.84375, 19.0 ],
 					"text" : "http://artica.cc",
 					"textcolor" : [ 0.88587, 0.88587, 0.88587, 1.0 ]
 				}
@@ -110,10 +110,10 @@
 					"maxclass" : "fpic",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 148.5, 568.0, 156.0, 40.0 ],
+					"patching_rect" : [ 1005.935486, 185.34285, 156.0, 40.0 ],
 					"pic" : "ARTICA_BW-smaller.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 788.0, 650.0, 122.0, 28.137236 ]
+					"presentation_rect" : [ 788.0, 765.0, 122.0, 28.137236 ]
 				}
 
 			}
@@ -125,9 +125,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ -5.0, -5.0 ],
-					"patching_rect" : [ 831.0, 394.5, 154.0, 37.0 ],
+					"patching_rect" : [ 998.435486, 280.530273, 154.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 503.0, 652.0, 154.0, 25.0 ]
+					"presentation_rect" : [ 502.0, 765.0, 154.0, 25.0 ]
 				}
 
 			}
@@ -138,9 +138,9 @@
 					"name" : "dmx_sub_master_page.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 3.0, 1.5, 982.0, 430.0 ],
+					"patching_rect" : [ 8.498964, 466.449219, 982.0, 430.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.0, 242.0, 982.0, 436.137238 ],
+					"presentation_rect" : [ 14.0, 358.431366, 982.0, 436.137238 ],
 					"varname" : "dmx_sub_master_page"
 				}
 
