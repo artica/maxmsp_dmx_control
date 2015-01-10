@@ -12,10 +12,10 @@
 
 
     <sub_1>
-        <file channel="1" value="255"/>
-        <file channel="2" value="255"/>
-        <file channel="3" value="255"/>
-        <file channel="4" value="255"/>
+        <file channel="1" value="5"/>
+        <file channel="2" value="25"/>
+        <file channel="3" value="55"/>
+        <file channel="4" value="15"/>
         <file channel="5" value="255"/>
         <file channel="6" value="255"/>
         <file channel="7" value="255"/>
@@ -54,7 +54,16 @@
         <file channel="38" value="255"/>
         <file channel="39" value="255"/>
 
-        <file channel="40" value="255"/>
+      
+       
+    </sub_1>
+
+    <sub_2>
+        <file channel="4" value="255"/>
+    </sub_2>
+
+    <sub_3>
+       <file channel="40" value="255"/>
         <file channel="41" value="255"/>
         <file channel="42" value="255"/>
         <file channel="43" value="255"/>
@@ -231,19 +240,26 @@
         <file channel="199" value="255"/>
 
         <file channel="200" value="255"/>
-       
-    </sub_1>
+        <file channel="201" value="255"/>
+        <file channel="202" value="255"/>
+        <file channel="203" value="255"/>
+        <file channel="204" value="255"/>
+        <file channel="205" value="255"/>
+        <file channel="206" value="255"/>
+        <file channel="207" value="255"/>
+        <file channel="208" value="255"/>
+        <file channel="209" value="255"/>
 
-    <sub_2>
-        <file channel="4" value="255"/>
-        <file channel="25" value="255"/>
-    </sub_2>
-
-    <sub_3>
-        <file channel="5" value="10"/>
-        <file channel="6" value="250"/>
-        <file channel="7" value="255"/>
-        <file channel="8" value="35"/>
+        <file channel="210" value="255"/>
+        <file channel="211" value="255"/>
+        <file channel="212" value="255"/>
+        <file channel="213" value="255"/>
+        <file channel="214" value="255"/>
+        <file channel="215" value="255"/>
+        <file channel="216" value="255"/>
+        <file channel="217" value="255"/>
+        <file channel="218" value="255"/>
+        <file channel="219" value="255"/>
     </sub_3>
 
     <sub_4>
