@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 7.0, 443.0, 994.0, 447.0 ],
+		"rect" : [ 41.0, 413.0, 1327.0, 428.0 ],
 		"bgcolor" : [ 0.064898, 0.064898, 0.064898, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -37,7 +37,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1191.797729, 466.449219, 53.0, 20.0 ],
+					"patching_rect" : [ 1200.797729, 272.355316, 53.0, 20.0 ],
 					"text" : "pcontrol"
 				}
 
@@ -51,7 +51,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1180.25, 438.75, 184.0, 18.0 ],
+					"patching_rect" : [ 1189.25, 244.656097, 184.0, 18.0 ],
 					"text" : "load dmx_channel_page.maxpat"
 				}
 
@@ -67,9 +67,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1191.797729, 408.543121, 90.0, 16.0 ],
+					"patching_rect" : [ 1200.797729, 214.449219, 90.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 359.797729, 413.0, 90.0, 16.0 ],
+					"presentation_rect" : [ 732.797729, 398.568604, 90.0, 16.0 ],
 					"text" : "CHANNEL PAGE",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
 				}
@@ -86,7 +86,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 1005.935486, 225.34285, 139.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 904.0, 421.568604, 78.84375, 19.0 ],
+					"presentation_rect" : [ 1132.3125, 402.568604, 78.84375, 19.0 ],
 					"text" : "http://artica.cc",
 					"textcolor" : [ 0.88587, 0.88587, 0.88587, 1.0 ]
 				}
@@ -102,7 +102,7 @@
 					"patching_rect" : [ 1005.935486, 185.34285, 156.0, 40.0 ],
 					"pic" : "ARTICA_BW-smaller.jpg",
 					"presentation" : 1,
-					"presentation_rect" : [ 782.0, 411.0, 122.0, 28.137236 ]
+					"presentation_rect" : [ 1209.499756, 396.0, 104.656433, 24.137236 ]
 				}
 
 			}
@@ -116,7 +116,7 @@
 					"offset" : [ -5.0, -5.0 ],
 					"patching_rect" : [ 998.435486, 280.530273, 154.0, 37.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 497.0, 409.0, 154.0, 25.0 ]
+					"presentation_rect" : [ 838.0, 395.0, 243.0, 25.0 ]
 				}
 
 			}
@@ -124,12 +124,12 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "bpatcher",
-					"name" : "dmx_sub_master_page.maxpat",
+					"name" : "dmx_cue_page.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 8.498964, 466.449219, 982.0, 430.0 ],
+					"patching_rect" : [ 9.435486, 7.449219, 633.0, 189.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 8.0, 4.431366, 982.0, 436.137238 ],
+					"presentation_rect" : [ 10.0, 13.431366, 1310.0, 410.137207 ],
 					"varname" : "dmx_sub_master_page"
 				}
 
@@ -155,7 +155,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "dmx_sub_master_page.maxpat",
+				"name" : "dmx_cue_page.maxpat",
 				"bootpath" : "/Users/guibot/Documents/LAB/PEDRORAMOS/ARTICA_DMX_CONTROL",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",

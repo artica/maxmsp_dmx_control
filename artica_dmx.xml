@@ -60,6 +60,9 @@
 
     <sub_2>
         <file channel="4" value="255"/>
+        <file channel="6" value="255"/>
+        <file channel="8" value="255"/>
+        <file channel="10" value="255"/>
     </sub_2>
 
     <sub_3>
@@ -260,6 +263,114 @@
         <file channel="217" value="255"/>
         <file channel="218" value="255"/>
         <file channel="219" value="255"/>
+
+        <file channel="220" value="255"/>
+        <file channel="221" value="255"/>
+        <file channel="222" value="255"/>
+        <file channel="223" value="255"/>
+        <file channel="224" value="255"/>
+        <file channel="225" value="255"/>
+        <file channel="226" value="255"/>
+        <file channel="227" value="255"/>
+        <file channel="228" value="255"/>
+        <file channel="229" value="255"/>
+        <file channel="230" value="255"/>
+        <file channel="231" value="255"/>
+        <file channel="232" value="255"/>
+        <file channel="233" value="255"/>
+        <file channel="234" value="255"/>
+        <file channel="235" value="255"/>
+        <file channel="236" value="255"/>
+        <file channel="237" value="255"/>
+        <file channel="238" value="255"/>
+        <file channel="239" value="255"/>
+        <file channel="240" value="255"/>
+        <file channel="241" value="255"/>
+        <file channel="242" value="255"/>
+        <file channel="243" value="255"/>
+        <file channel="244" value="255"/>
+        <file channel="245" value="255"/>
+        <file channel="246" value="255"/>
+        <file channel="247" value="255"/>
+        <file channel="248" value="255"/>
+        <file channel="249" value="255"/>
+        <file channel="250" value="255"/>
+        <file channel="251" value="255"/>
+        <file channel="252" value="255"/>
+        <file channel="253" value="255"/>
+        <file channel="254" value="255"/>
+        <file channel="255" value="255"/>
+        <file channel="256" value="255"/>
+        <file channel="257" value="255"/>
+        <file channel="258" value="255"/>
+        <file channel="259" value="255"/>
+
+        <file channel="260" value="255"/>
+        <file channel="261" value="255"/>
+        <file channel="262" value="255"/>
+        <file channel="263" value="255"/>
+        <file channel="264" value="255"/>
+        <file channel="265" value="255"/>
+        <file channel="266" value="255"/>
+        <file channel="267" value="255"/>
+        <file channel="268" value="255"/>
+        <file channel="269" value="255"/>
+
+        <file channel="270" value="255"/>
+        <file channel="271" value="255"/>
+        <file channel="272" value="255"/>
+        <file channel="273" value="255"/>
+        <file channel="274" value="255"/>
+        <file channel="275" value="255"/>
+        <file channel="276" value="255"/>
+        <file channel="277" value="255"/>
+        <file channel="278" value="255"/>
+        <file channel="279" value="255"/>
+
+        <file channel="280" value="255"/>
+        <file channel="281" value="255"/>
+        <file channel="282" value="255"/>
+        <file channel="283" value="255"/>
+        <file channel="284" value="255"/>
+        <file channel="285" value="255"/>
+        <file channel="286" value="255"/>
+        <file channel="287" value="255"/>
+        <file channel="288" value="255"/>
+        <file channel="289" value="255"/>
+
+        <file channel="290" value="255"/>
+        <file channel="291" value="255"/>
+        <file channel="292" value="255"/>
+        <file channel="293" value="255"/>
+        <file channel="294" value="255"/>
+        <file channel="295" value="255"/>
+        <file channel="296" value="255"/>
+        <file channel="297" value="255"/>
+        <file channel="298" value="255"/>
+        <file channel="299" value="255"/>
+
+        <file channel="300" value="255"/>
+        <file channel="301" value="255"/>
+        <file channel="302" value="255"/>
+        <file channel="303" value="255"/>
+        <file channel="304" value="255"/>
+        <file channel="305" value="255"/>
+        <file channel="306" value="255"/>
+        <file channel="307" value="255"/>
+        <file channel="308" value="255"/>
+        <file channel="309" value="255"/>
+
+        <file channel="310" value="255"/>
+        <file channel="311" value="255"/>
+        <file channel="312" value="255"/>
+        <file channel="313" value="255"/>
+        <file channel="314" value="255"/>
+        <file channel="315" value="255"/>
+        <file channel="316" value="255"/>
+        <file channel="317" value="255"/>
+        <file channel="318" value="255"/>
+        <file channel="319" value="255"/>
+
     </sub_3>
 
     <sub_4>
@@ -501,6 +612,126 @@
         <file channel="15" value="255"/>
         <file channel="16" value="255"/>
     </sub_24>
+
+    <sub_25>
+        <file channel="25" value="255"/>
+    </sub_25>
+
+    <sub_26>
+        <file channel="26" value="255"/>
+    </sub_26>
+
+        <sub_27>
+        <file channel="27" value="255"/>
+    </sub_27>
+
+        <sub_28>
+        <file channel="28" value="255"/>
+    </sub_28>
+
+        <sub_29>
+        <file channel="29" value="255"/>
+    </sub_29>
+
+        <sub_30>
+        <file channel="30" value="255"/>
+    </sub_30>
+
+        <sub_31>
+        <file channel="31" value="255"/>
+    </sub_31>
+
+        <sub_32>
+        <file channel="32" value="255"/>
+    </sub_32>
+
+        <sub_33>
+        <file channel="33" value="255"/>
+    </sub_33>
+
+        <sub_34>
+        <file channel="34" value="255"/>
+    </sub_34>
+
+        <sub_35>
+        <file channel="35" value="255"/>
+    </sub_35>
+
+        <sub_36>
+        <file channel="36" value="255"/>
+    </sub_36>
+
+        <sub_37>
+        <file channel="37" value="255"/>
+    </sub_37>
+
+        <sub_38>
+        <file channel="38" value="255"/>
+        <file channel="40" value="255"/>
+    </sub_38>
+
+        <sub_39>
+        <file channel="39" value="255"/>
+    </sub_39>
+
+        <sub_40>
+        <file channel="40" value="255"/>
+    </sub_40>
+
+        <sub_41>
+        <file channel="41" value="255"/>
+        <file channel="47" value="255"/>
+    </sub_41>
+
+        <sub_42>
+        <file channel="42" value="255"/>
+    </sub_42>
+
+        <sub_43>
+        <file channel="43" value="255"/>
+    </sub_43>
+
+        <sub_44>
+        <file channel="44" value="255"/>
+    </sub_44>
+
+        <sub_45>
+        <file channel="45" value="255"/>
+    </sub_45>
+
+        <sub_46>
+        <file channel="46" value="255"/>
+    </sub_46>
+
+        <sub_47>
+        <file channel="47" value="255"/>
+    </sub_47>
+
+        <sub_48>
+        <file channel="48" value="255"/>
+    </sub_48>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     
 </root> 

@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 782.0, 44.0, 299.0, 286.0 ],
+		"rect" : [ 782.0, 44.0, 385.0, 661.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -34,10 +34,11 @@
 					"name" : "dmx_channel_display.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
+					"offset" : [ -0.385543, -0.771087 ],
 					"outlettype" : [ "int" ],
 					"patching_rect" : [ 23.0, 260.0, 31.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.575902, 0.575903, 31.30361, 19.759022 ]
+					"presentation_rect" : [ 0.575902, 0.575903, 24.999855, 19.759022 ]
 				}
 
 			}
@@ -77,7 +78,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 111.0, 85.0, 33.0, 144.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 3.444895, 22.334925, 28.986294, 144.0 ],
+					"presentation_rect" : [ 1.444895, 19.334925, 25.130861, 144.0 ],
 					"size" : 255.0
 				}
 

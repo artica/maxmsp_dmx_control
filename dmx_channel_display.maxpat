@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 412.0, 44.0, 702.0, 629.0 ],
+		"rect" : [ 15.0, 147.0, 702.0, 629.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -29,6 +29,21 @@
 		"digest" : "",
 		"tags" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-16",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
+					"patching_rect" : [ 525.0, 92.0, 59.5, 20.0 ],
+					"text" : "autopattr",
+					"varname" : "u458104169"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-24",
 					"maxclass" : "button",
@@ -586,10 +601,11 @@
 				"box" : 				{
 					"background" : 1,
 					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.37 ],
+					"bordercolor" : [ 0.501961, 0.501961, 0.501961, 0.0 ],
 					"fontface" : 1,
 					"fontname" : "Arial",
-					"fontsize" : 10.0,
+					"fontsize" : 9.0,
+					"hbgcolor" : [ 0.542273, 0.066754, 0.0, 1.0 ],
 					"id" : "obj-3",
 					"maxclass" : "number",
 					"maximum" : 255,
@@ -598,9 +614,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 196.0, 64.0, 29.0, 18.0 ],
+					"patching_rect" : [ 196.0, 64.0, 29.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.0, 1.0, 29.0, 18.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 22.648863, 17.0 ],
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"triangle" : 0
 				}
