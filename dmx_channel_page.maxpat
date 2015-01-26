@@ -8,7 +8,7 @@
 			"architecture" : "x86"
 		}
 ,
-		"rect" : [ 1591.0, 246.0, 976.0, 491.0 ],
+		"rect" : [ 63.0, 53.0, 976.0, 491.0 ],
 		"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -22,12 +22,13 @@
 		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
-		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablehscroll" : 0,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
 		"tags" : "",
+		"title" : "DMX_CHANNEL_PAGE",
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
