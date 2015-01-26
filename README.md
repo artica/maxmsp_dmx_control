@@ -67,3 +67,4 @@ CUES:
 This cue system is very basic and will be updated asap.
 Basically you can define an IN and OUT time ramp for each Submaster and record it on a .JSON file.
 Altouth the file is automatically readed, you can always use the red and blue button to record and read the LIGHT_CUELIST.JSON file.
+Use the PREV and NEXT button to walk through the cues.
